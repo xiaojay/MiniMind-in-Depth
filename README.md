@@ -5,7 +5,7 @@
 
 ---
 
-本项目是基于开源项目 [jingyaogong/minimind](https://github.com/jingyaogong/minimind) 的深入学习与实战笔记，**致敬原作者的精彩工作！👏**
+本项目是基于开源项目 [jingyaogong/minimind](https://github.com/jingyaogong/minimind) [2025.4.26 最新版本]的深入学习与实战笔记，**致敬原作者的精彩工作！👏**
 
 我在原有代码基础上，进行了**逐行源码解析**，特别补充了：
 
