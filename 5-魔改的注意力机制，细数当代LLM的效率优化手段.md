@@ -1,11 +1,3 @@
----
-title: 轻量级大语言模型MiniMind源码解读（五）：魔改的注意力机制，细数当代LLM的效率优化手段
-date: 2025-05-28 20:34:14
-tags: LLM
-categories: MiniMind源码解读
-cover: https://p.sda1.dev/24/244c1076adf852a2929f67f95393b090/pexels-jokassis-31177803.jpg
-mathjax: true
----
 
 MiniMind中的注意力机制包含了KV cache，GQA，Flash Attention等。
 # 一、KV Cache

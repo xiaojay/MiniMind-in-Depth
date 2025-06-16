@@ -1,11 +1,4 @@
----
-title: 轻量级大语言模型MiniMind源码解读（八）：LLM预训练-让大模型学会“说话”
-date: 2025-05-28 20:57:22
-tags: LLM
-categories: MiniMind源码解读
-cover: https://p.sda1.dev/24/244c1076adf852a2929f67f95393b090/pexels-jokassis-31177803.jpg
-mathjax: true
----
+
 当调用搭建好的`MiniMindForCausalLM`类实例化一个模型之后，模型的参数是随机的，这个阶段的模型没有任何语言能力，无法进行有意义的文本生成或理解。
 
 **预训练**使用大规模的无监督语料对模型进行训练，使其具备“理解和生成自然语言”的基础能力，为后续的**微调**提供一个好的起点。

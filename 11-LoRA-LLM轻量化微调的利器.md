@@ -1,11 +1,4 @@
----
-title: 轻量级大语言模型MiniMind源码解读（十一）：LoRA-LLM轻量化微调的利器
-date: 2025-06-16 20:05:53
-tags: LLM
-categories: MiniMind源码解读
-cover: https://p.sda1.dev/24/244c1076adf852a2929f67f95393b090/pexels-jokassis-31177803.jpg
-mathjax: true
----
+
 # 一、LoRA的核心思想
 LoRA，全称 **Low-Rank Adaptation of Large Language Models**，是一种在 **大模型中进行高效微调** 的方法，目标是 **只训练极少数参数** 就能让模型适应新任务，避免重新训练整个大模型，从而可以在没有充足GPU显存的情况下快速在自己的数据集上对大模型做微调。
 

@@ -1,11 +1,3 @@
----
-title: 轻量级大语言模型MiniMind源码解读（十）：DPO-大模型对齐训练的新范式
-date: 2025-05-28 21:05:40
-tags: LLM
-categories: MiniMind源码解读
-cover: https://p.sda1.dev/24/244c1076adf852a2929f67f95393b090/pexels-jokassis-31177803.jpg
-mathjax: true
----
 
 **DPO（Direct Preference Optimization）** 是一种用于有监督指令微调后模型偏好对齐的训练方法，目标是让模型更倾向于输出人类偏好的回答（`chosen`），而不是次优回答（`rejected`）。
 

@@ -1,11 +1,4 @@
----
-title: 轻量级大语言模型MiniMind源码解读（六）：从稠密到稀疏，详解专家混合模型MoE
-date: 2025-05-28 20:38:16
-tags: LLM
-categories: MiniMind源码解读
-cover: https://p.sda1.dev/24/244c1076adf852a2929f67f95393b090/pexels-jokassis-31177803.jpg
-mathjax: true
----
+
 # 一、稠密模型中的FFN
 稠密模型（Dense Model）是指模型结构中所有的参数和计算路径在每次前向计算中都会被激活，与下一小节要介绍的稀疏模型MoE形成对比。
 

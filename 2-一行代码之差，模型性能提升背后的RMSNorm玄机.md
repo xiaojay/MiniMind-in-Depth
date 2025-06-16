@@ -1,11 +1,4 @@
----
-title: 轻量级大语言模型MiniMind源码解读（二）：为什么 RMSNorm 更适合大模型推理？
-date: 2025-05-18 16:17:01
-tags: LLM
-categories: MiniMind源码解读
-cover: https://p.sda1.dev/24/244c1076adf852a2929f67f95393b090/pexels-jokassis-31177803.jpg
-mathjax: true
----
+
 # 一、RMSNorm是什么
 RMSNorm 是一种简单高效的 **归一化方法**，用于归一化神经网络中某一层的输出，使其数值保持稳定，常用于Transformer中。
 

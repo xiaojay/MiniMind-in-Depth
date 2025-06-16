@@ -1,12 +1,3 @@
----
-title: 轻量级大语言模型MiniMind源码解读（一）：如何从头训练tokenizer ?
-date: 2025-05-10 13:46:37
-tags: LLM
-categories: MiniMind源码解读
-cover: https://p.sda1.dev/24/244c1076adf852a2929f67f95393b090/pexels-jokassis-31177803.jpg
-mathjax: true
----
-
 # 一、导入训练tokenizer所需库
 
 `tokenizers`是Hugging Face出的一个高性能、可定制的子词分词器库，主要用于训练和使用像BPE、WordPiece、Unigram等子词模型，是训练 LLM（如GPT/BERT）时常用的工具。

@@ -1,11 +1,4 @@
----
-title: 轻量级大语言模型MiniMind源码解读（三）：原始Transformer的位置编码及其缺陷
-date: 2025-05-28 20:19:42
-tags: LLM
-categories: MiniMind源码解读
-cover: https://p.sda1.dev/24/244c1076adf852a2929f67f95393b090/pexels-jokassis-31177803.jpg
-mathjax: true
----
+
 # 一、Sinusoidal PE是什么？
 在Transformer原始论文《Attention is All You Need》中，作者使用了固定的**正余弦位置编码**Sinusoidal PE来为模型引入位置信息。其核心思想是利用不同频率的正弦波和余弦波对每个位置进行编码，具体公式如下：
 $$
